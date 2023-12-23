@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/Babysitter-website/static/css/main.bdcb72ad.css",
-    "main.js": "/Babysitter-website/static/js/main.0a9894ee.js",
+    "main.css": "/Babysitter-website/static/css/main.fce762af.css",
+    "main.js": "/Babysitter-website/static/js/main.06fbefd3.js",
     "static/js/787.5af0ea63.chunk.js": "/Babysitter-website/static/js/787.5af0ea63.chunk.js",
     "static/media/hourSitterImage2.svg": "/Babysitter-website/static/media/hourSitterImage2.0cf617c97701f9dd8994f8f9d0637a60.svg",
     "static/media/mainSectionImage.svg": "/Babysitter-website/static/media/mainSectionImage.175f23670442f94c41b574754fb5f58c.svg",
     "static/media/servicesHeaadingImage.svg": "/Babysitter-website/static/media/servicesHeaadingImage.546978027c2d2a0e1f9c8767e52b1f1c.svg",
     "static/media/regularSitterPeople.svg": "/Babysitter-website/static/media/regularSitterPeople.1c21ba6998ce4735a79f4d23e315513e.svg",
     "static/media/hourSitterImage1.svg": "/Babysitter-website/static/media/hourSitterImage1.c05b3157d6d7a49f7dedbabb7a7e9b76.svg",
+    "static/media/professionalismIcon.svg": "/Babysitter-website/static/media/professionalismIcon.ae766e054968d87941248cbbf00a7ddc.svg",
+    "static/media/childEducationIcon.svg": "/Babysitter-website/static/media/childEducationIcon.cc681767681db257ceba77e1cc9090ec.svg",
     "static/media/logo.svg": "/Babysitter-website/static/media/logo.65958819a1b66567dae9773262dab775.svg",
+    "static/media/careIcon.svg": "/Babysitter-website/static/media/careIcon.4ec961205ed483779ead8c76832a682c.svg",
+    "static/media/experienceIcon.svg": "/Babysitter-website/static/media/experienceIcon.e318c8621b1b4c247540d5118d3e824a.svg",
+    "static/media/flexIcon.svg": "/Babysitter-website/static/media/flexIcon.130340d0abd7a0a8345780c7e3f554e9.svg",
     "static/media/Klukva.otf": "/Babysitter-website/static/media/Klukva.b2d8533ddda880b8e401.otf",
+    "static/media/privacyIcon.svg": "/Babysitter-website/static/media/privacyIcon.38f6b4cba91db8444073aac7b1e0fe3a.svg",
     "index.html": "/Babysitter-website/index.html",
     "static/media/regularSitterFigure.svg": "/Babysitter-website/static/media/regularSitterFigure.f2f62f3eb0d7dd2af6b9b6242fe8c1b3.svg",
-    "main.bdcb72ad.css.map": "/Babysitter-website/static/css/main.bdcb72ad.css.map",
-    "main.0a9894ee.js.map": "/Babysitter-website/static/js/main.0a9894ee.js.map",
+    "main.fce762af.css.map": "/Babysitter-website/static/css/main.fce762af.css.map",
+    "main.06fbefd3.js.map": "/Babysitter-website/static/js/main.06fbefd3.js.map",
     "787.5af0ea63.chunk.js.map": "/Babysitter-website/static/js/787.5af0ea63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdcb72ad.css",
-    "static/js/main.0a9894ee.js"
+    "static/css/main.fce762af.css",
+    "static/js/main.06fbefd3.js"
   ]
 }
