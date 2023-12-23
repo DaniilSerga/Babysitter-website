@@ -1,3 +1,4 @@
-import { Header } from "./Header";
+import {Header} from "./Header";
+import {FeedbackDivider} from "./FeedbackDivider";
 
-export {Header};
+export {Header, FeedbackDivider};

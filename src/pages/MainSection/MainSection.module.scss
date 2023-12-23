@@ -1,0 +1,54 @@
+@import 'styles/_variables';
+
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 100px;
+}
+
+.headingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    max-width: 600px;
+
+    & > h2 {
+        margin: 0;
+        color: $dolphinGray;
+        font-family: klukva;
+        font-size: 60px;
+        text-align: left;
+    }
+}
+
+.submitButton {
+    cursor: pointer;
+    padding: 15px 25px;
+    background-color: $copper;
+    border-width: 0;
+    border-radius: 60px;
+    transition: all 0.3s;
+
+    & > p {
+        color: $isabelline;
+        font-family: klukva;
+        font-size: 35px;
+        margin: 0;
+    }
+
+    &:hover {
+        background-color: $electricBrown;
+    }
+}
+
+.imageContainer {
+    max-width: 876px;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+}
