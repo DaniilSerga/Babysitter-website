@@ -1,0 +1,131 @@
+@import 'styles/_variables';
+
+.sectionContainer {
+    padding-top: 160px;
+}
+
+.hourSitterContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px 150px;
+
+    & > h1 {
+        max-width: 390px;
+        color: $dolphinGray;
+        font-family: 'Roboto';
+        font-size: 140px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+}
+
+.sunImageContainer {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 542px;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.peopleImageContainer {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 1132px;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.serviceDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    gap: 25px;
+    max-width: 700px;
+    margin-top: 230px;
+}
+
+.serviceDescriptionsList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 95px 47px;
+    background-color: $platinum;
+    border-radius: 200px;
+
+    & > li > p {
+        color: $quickSilver;
+        font-family: 'Roboto';
+        font-size: 38px;
+        text-align: left;
+    }
+}
+
+.regularSitterContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 50px;
+}
+
+.serviceHeadingContainer {
+    display: flex;
+    justify-content: flex-end;
+
+    & > h1 {
+        max-width: 955px;
+        color: $dolphinGray;
+        font-family: 'Roboto';
+        font-size: 140px;
+        text-transform: uppercase;
+        text-align: right;
+        line-height: 135px;
+    }
+}
+
+.regularServiceDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    gap: 25px;
+    max-width: 1078px;
+    margin-top: 350px;
+}
+
+.figureImageContainer {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 472px;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.regularPeopleImageContainer {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 28px;
+    max-width: 750px;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+}

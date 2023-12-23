@@ -1,3 +1,5 @@
 import {MainSection} from "./MainSection";
+import {ServicesSection} from "./ServicesSection";
+import { ServicesList } from "./ServicesList";
 
-export {MainSection};
+export {MainSection, ServicesSection, ServicesList};

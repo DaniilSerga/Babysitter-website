@@ -1,4 +1,5 @@
 import {Header} from "./Header";
 import {FeedbackDivider} from "./FeedbackDivider";
+import {RequestButton} from "./RequestButton";
 
-export {Header, FeedbackDivider};
+export {RequestButton, Header, FeedbackDivider};

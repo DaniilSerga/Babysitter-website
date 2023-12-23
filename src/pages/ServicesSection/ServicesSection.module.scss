@@ -1,0 +1,44 @@
+@import 'styles/_variables';
+
+.sectionContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 225px;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: center;
+    height: 663px;
+    width: 100%;
+    background-color: $copper;
+}
+
+.headingTextContainer {
+    margin-top: 206px;
+    // max-width: 1084px;
+    height: fit-content;
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgba($platinum, 0.46);
+    
+    & > h2 {
+        color: $platinum;
+        font-family: 'Roboto';
+        font-size: 140px;
+        text-transform: uppercase;
+        line-height: 112px;
+    }
+}
+
+.imageContainer {
+    position: absolute;
+    bottom: 0px;
+    max-width: 895px;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import { FeedbackDivider, Header } from 'components';
-import { MainSection } from 'pages';
+import { MainSection, ServicesList, ServicesSection } from 'pages';
 
 function App() {
   return (
@@ -9,6 +9,8 @@ function App() {
       	<Header />
         <MainSection />
         <FeedbackDivider />
+        <ServicesSection />
+        <ServicesList />
     </div>
   );
 }
