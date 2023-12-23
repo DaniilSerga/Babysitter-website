@@ -1,4 +1,29 @@
-.text {
-    font-size: 20px;
-    color: red;
+@import 'styles/_variables';
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.linksContainer {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.link {
+    cursor: pointer;
+
+    & > p {
+        color: $copper;
+        font-family: klukva;
+        font-size: 30px;
+        transition: 0.3s;
+    }
+
+    &:hover > p {
+        color: $englishRed;
+    }
 }
