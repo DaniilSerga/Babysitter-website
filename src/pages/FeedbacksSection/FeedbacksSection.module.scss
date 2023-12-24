@@ -1,0 +1,48 @@
+@import 'styles/_variables';
+
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contentWrapper {
+    width: 100%;
+    max-width: 1388px;
+
+    & > h2 {
+        color: $dolphinGray;
+        font-family: 'Roboto';
+        font-size: 85px;
+    }
+}
+
+.feedbacksListContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    list-style: none;
+}
+
+.feedbackItem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 28px 6px;
+    max-width: 334px;
+    max-height: 927px;
+    background-color: $platinum;
+    border: 1px solid $quickSilver;
+    border-radius: 85px;
+    box-shadow: 0px 4px 4px 0px rgba($black, 0.25);
+    
+    & > p {
+        color: $black;
+        font-family: klukva;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    & > p:last-child {
+        margin-top: 10px;
+    }
+}

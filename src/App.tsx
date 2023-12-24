@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import { FeedbackDivider, Header } from 'components';
-import { AchievementsSection, MainSection, ServicesList, ServicesSection } from 'pages';
+import { AchievementsSection, FeedbacksSection, MainSection, ServicesList, ServicesSection } from 'pages';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <ServicesSection />
         <ServicesList />
         <AchievementsSection />
+        <FeedbacksSection />
     </div>
   );
 }
