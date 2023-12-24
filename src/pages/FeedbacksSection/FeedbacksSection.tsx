@@ -11,7 +11,9 @@ const FeedbacksSection: FC = () => {
                 <ul className={styles.feedbacksListContainer}>
                     {CUSTOMERS.map(customer => (
                         <li className={styles.feedbackItem} key={customer.id}>
-                            <img src={customer.icon} alt="Customer icon" />
+                            <div className={styles.customerIconWrapper}>
+                                <img src={customer.icon} alt="Customer icon" />
+                            </div>
                             <p>{customer.name}</p>
                             <p>{customer.feedback}</p>
                         </li>

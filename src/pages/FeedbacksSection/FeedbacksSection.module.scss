@@ -3,11 +3,12 @@
 .sectionContainer {
     display: flex;
     justify-content: center;
+    padding-bottom: 90px;
 }
 
 .contentWrapper {
     width: 100%;
-    max-width: 1388px;
+    max-width: 1300px;
 
     & > h2 {
         color: $dolphinGray;
@@ -25,11 +26,12 @@
 
 .feedbackItem {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
-    padding: 25px 28px 6px;
-    max-width: 334px;
-    max-height: 927px;
+    padding: 25px 28px 20px;
+    max-width: 300px;
+    max-height: 950px;
     background-color: $platinum;
     border: 1px solid $quickSilver;
     border-radius: 85px;
@@ -38,11 +40,26 @@
     & > p {
         color: $black;
         font-family: klukva;
-        font-size: 30px;
+        font-size: 26px;
         text-align: center;
     }
 
-    & > p:last-child {
+    & > p:first-of-type {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    & > p:last-of-type {
         margin-top: 10px;
+    }
+}
+
+.customerIconWrapper {
+    max-width: 200px;
+    max-height: 200px;
+
+    & > img {
+        width: 100%;
+        height: auto;
     }
 }
