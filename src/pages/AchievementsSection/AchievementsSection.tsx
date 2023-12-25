@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 
 import styles from './AchievementsSection.module.scss';
-import { careIcon, childEducationIcon, experienceIcon, flexIcon, privacyIcon, professionalismIcon } from 'assets';
+import {careIcon, childEducationIcon, experienceIcon, flexIcon, privacyIcon, professionalismIcon} from 'assets';
 
 const AchievementsSection: FC = () => {
     return (

@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 
 import styles from './ServicesList.module.scss';
 import {hourSitterImagePeople, hourSitterImageSun, regularSitterFigure, regularSitterPeople} from 'assets';
-import { RequestButton } from 'components';
+import {RequestButton} from 'components';
 
 const ServicesList: FC = () => {
     return (

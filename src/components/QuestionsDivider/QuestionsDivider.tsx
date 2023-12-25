@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 
 import styles from './QuestionsDivider.module.scss';
-import { instagramIcon, telegramIcon } from 'assets';
+import {instagramIcon, telegramIcon} from 'assets';
 
 const QuestionsDivider: FC = () => {
     return (

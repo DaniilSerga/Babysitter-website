@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import styles from './Header.module.scss';
-import { logo } from 'assets';
+import {logo} from 'assets';
 
 const Header: FC = () => {
     return (
