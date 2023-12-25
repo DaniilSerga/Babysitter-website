@@ -2,6 +2,7 @@ import React, {FC} from 'react';
 
 import styles from './FeedbacksSection.module.scss';
 import {CUSTOMERS} from 'constants/customers';
+import { QuestionsDivider } from 'components';
 
 const FeedbacksSection: FC = () => {
     return (

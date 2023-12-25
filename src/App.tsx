@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { FeedbackDivider, Header } from 'components';
+import { FeedbackDivider, Header, QuestionsDivider } from 'components';
 import { AchievementsSection, FeedbacksSection, MainSection, ServicesList, ServicesSection } from 'pages';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <ServicesList />
         <AchievementsSection />
         <FeedbacksSection />
+        <QuestionsDivider />
     </div>
   );
 }
