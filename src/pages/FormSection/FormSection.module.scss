@@ -1,5 +1,11 @@
 @import 'styles/_variables';
 
 .sectionContainer {
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+.contentWrapper {
+    max-width: 1200px;
+    width: 100%;
 }
