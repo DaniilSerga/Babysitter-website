@@ -1,9 +1,9 @@
-import React, {FC, useEffect, useState} from 'react';
+import React, {FC, useState} from 'react';
 
 import styles from './FormSection.module.scss';
-import { FormControl, InputLabel, MenuItem, Select, TextField, private_excludeVariablesFromRoot } from '@mui/material';
+import {FormControl, InputLabel, MenuItem, Select, TextField} from '@mui/material';
 import Application from 'types/application';
-import { CITIES, SERVICES } from 'constants/formData';
+import {CITIES, SERVICES} from 'constants/formData';
 
 const FormSection: FC = () => {
     const [application, setApplication] = useState<Application>({name: '', phoneNumber: '', city: '', service: '', description: ''});
@@ -42,9 +42,6 @@ const FormSection: FC = () => {
         }
     }
 
-    useEffect(() => {
-        console.log(application);
-    }, [application])
     return (
         <section className={styles.sectionContainer}>
             <div className={styles.contentWrapper}>

@@ -93,6 +93,12 @@
     transition: all 0.2s;
 }
 
+// TODO: somehow increase the font's size
+// .input > div > input,
+// .selectorContainer > div {
+//     font-size: 22px;
+// }
+
 .descriptionField {
     background-color: #fff;
     border-radius: 30px !important;
@@ -106,8 +112,8 @@
         border-color: $quickSilver !important;
         border-radius: 30px !important;
         transition: all 0.2s;
-        // border-width: 0 !important;
     }
+
     & > div > textarea {
         font-size: 22px;
     }
