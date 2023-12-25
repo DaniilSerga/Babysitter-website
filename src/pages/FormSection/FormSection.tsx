@@ -51,8 +51,8 @@ const FormSection: FC = () => {
                 <h2>Заполните данные для оформления заявки</h2>
                 <div className={styles.formContainer}>
                     <div className={styles.generalInputsWrapper}>
-                        <TextField label="ФИО" type="text" onChange={(event) => handleChange('name', event.target.value)} variant='outlined'/>
-                        <TextField label="Номер телефона" type="tel" onChange={(event) => handleChange('phoneNumber', event.target.value)} variant='outlined'/>
+                        <TextField className={styles.input} label="ФИО" type="text" onChange={(event) => handleChange('name', event.target.value)} variant='outlined'/>
+                        <TextField className={styles.input} label="Номер телефона" type="tel" onChange={(event) => handleChange('phoneNumber', event.target.value)} variant='outlined'/>
                         <FormControl>
                             <InputLabel id="demo-simple-select-label">Выберите город</InputLabel>
                             <Select
@@ -80,8 +80,9 @@ const FormSection: FC = () => {
                             </Select>
                         </FormControl>
                     </div>
-                    <TextField multiline placeholder='Описание ситуации' inputProps={{maxLength: 10}} onChange={(event) => handleChange('description', event.target.value)}/>
-                    <button onClick={emailAction}>
+                    <TextField className={styles.descriptionField} multiline label='Описание ситуации' inputProps={{maxLength: 200}} onChange={(event) => handleChange('description', event.target.value)}/>
+                    <p>{application.description.length}/200</p>
+                    <button className={styles.submitButton} onClick={emailAction}>
                         <p>Отправить</p>
                     </button>
                 </div>
