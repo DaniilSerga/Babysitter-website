@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 
 import styles from './ServicesList.module.scss';
 import {hourSitterImagePeople, hourSitterImageSun, regularSitterFigure, regularSitterPeople} from 'assets';
-import { RequestButton } from 'components';
+import {Button} from 'components';
 
 const ServicesList: FC = () => {
     return (
@@ -21,7 +21,7 @@ const ServicesList: FC = () => {
                             <p>комфорт и забота о вашем ребенке</p>
                         </li>
                     </ul>
-                    <RequestButton />
+                    <Button title="Оставить заявку" />
                 </div>
 
                 {/* Background part */}
@@ -52,7 +52,7 @@ const ServicesList: FC = () => {
                             <p>проведение развивающих игр и занятий с детьми</p>
                         </li>
                     </ul>
-                    <RequestButton />
+                    <Button title="Оставить заявку" />
                 </div>
                 {/* Background section */}
                 <div className={styles.figureImageContainer}>

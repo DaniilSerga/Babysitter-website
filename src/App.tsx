@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
-import { FeedbackDivider, Header, QuestionsDivider } from 'components';
-import { AchievementsSection, FeedbacksSection, MainSection, ServicesList, ServicesSection } from 'pages';
+import {FeedbackDivider, Header, QuestionsDivider} from 'components';
+import {AchievementsSection, FeedbacksSection, FormSection, MainSection, ServicesList, ServicesSection} from 'pages';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <AchievementsSection />
         <FeedbacksSection />
         <QuestionsDivider />
+        <FormSection />
     </div>
   );
 }
