@@ -7,5 +7,6 @@ import privacyIcon from './privacyIcon.svg';
 import experienceIcon from './experienceIcon.svg';
 import telegramIcon from './telegramIcon.svg';
 import instagramIcon from './instagramIcon.svg';
+import vkIcon from './vkIcon.svg';
 
-export {logo, professionalismIcon, childEducationIcon, flexIcon, careIcon, privacyIcon, experienceIcon, telegramIcon, instagramIcon};
+export {logo, professionalismIcon, childEducationIcon, flexIcon, careIcon, privacyIcon, experienceIcon, telegramIcon, instagramIcon, vkIcon};
