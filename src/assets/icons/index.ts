@@ -8,5 +8,8 @@ import experienceIcon from './experienceIcon.svg';
 import telegramIcon from './telegramIcon.svg';
 import instagramIcon from './instagramIcon.svg';
 import vkIcon from './vkIcon.svg';
+import checkMarkIcon from './checkMarkIcon.svg';
+import personIcon from './personIcon.svg';
+import starIcon from './starIcon.svg';
 
-export {logo, professionalismIcon, childEducationIcon, flexIcon, careIcon, privacyIcon, experienceIcon, telegramIcon, instagramIcon, vkIcon};
+export {logo, professionalismIcon, childEducationIcon, flexIcon, careIcon, privacyIcon, experienceIcon, telegramIcon, instagramIcon, vkIcon, checkMarkIcon, personIcon, starIcon};

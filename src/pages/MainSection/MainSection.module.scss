@@ -1,10 +1,25 @@
 @import 'styles/_variables';
+@import 'styles/_mixins';
 
 .sectionContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 50px 100px;
+
+    @include mobile {
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 37px 70px;
+
+        & > div:last-of-type {
+            order: 1;
+        }
+
+        & > div:first-of-type {
+            order: 2;
+        }
+    }
 }
 
 .headingContainer {
@@ -21,6 +36,18 @@
         font-family: klukva;
         font-size: 60px;
         text-align: left;
+    }
+
+    @include mobile {
+        gap: 20px;
+        
+        & > h2 {
+            font-size: 30px;
+        }
+
+        & > button {
+            align-self: flex-end;
+        }
     }
 }
 

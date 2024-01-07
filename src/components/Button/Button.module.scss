@@ -1,4 +1,5 @@
 @import 'styles/_variables';
+@import 'styles/_mixins';
 
 .submitButton {
     cursor: pointer;
@@ -18,5 +19,13 @@
 
     &:hover {
         background-color: $tumbleweed;
+    }
+
+    @include mobile {
+        padding: 10px 15px;
+
+        & > p {
+            font-size: 25px;
+        }
     }
 }

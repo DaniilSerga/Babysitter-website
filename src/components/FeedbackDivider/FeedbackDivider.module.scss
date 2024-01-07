@@ -1,4 +1,5 @@
 @import 'styles/_variables';
+@import 'styles/_mixins';
 
 .dividerContainer {
     display: flex;
@@ -6,11 +7,43 @@
     padding: 24px 40px;
     background-color: $platinum;
 
-    & > p {
+    & > div {
         max-width: 230px;
-        color: $outerSpace;
-        font-family: klukva;
-        font-size: 36px;
-        text-align: center;
+
+        & > img {
+            display: none;
+        }
+
+        & > p {
+            color: $outerSpace;
+            font-family: klukva;
+            font-size: 36px;
+            text-align: center;
+        }
+    }
+
+    @include mobile {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+        padding: 20px 0 25px;
+        background-color: $queenBlue;
+
+        & > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            max-width: 180px;
+
+            & > img {
+                display: block;
+            }
+
+            & > p {
+                color: $paleChestnut;
+                font-size: 20px
+            }
+        }
     }
 }
